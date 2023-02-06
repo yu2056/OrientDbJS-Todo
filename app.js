@@ -81,7 +81,7 @@ app.post('/', async (req, res) => {
     Todo.update(body['id'], {
       text: text
     });
-    )
+  })
   }//Удаление
   else if(body['delete'] != undefined){
     await db.class.get('todo').then(function(Todo){
