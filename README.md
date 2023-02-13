@@ -1,19 +1,14 @@
 # Todo app
-This is simple todo app that uses SurrealDB database
+This is simple todo app that uses OrientDb database
 ## Setup
 1. Clone repository  
-`git clone https://github.com/DrigsterI/todo`
+`git clone https://github.com/yu2056/OrientDbJS-Todo`
 2. Install dependencies  
 `npm i`
 3. Install database  
-Mac: 
-`brew install surrealdb/tap/surreal`  
-Linux: 
-`curl -sSf https://install.surrealdb.com | sh`  
-Windows: 
-`iwr https://windows.surrealdb.com -useb | iex`  
+Install OrientDb Docker image.
 4. Start database  
-`npm run db`
+Turn it on in Docker.
 5. Start server  
 `npm run dev`
 
