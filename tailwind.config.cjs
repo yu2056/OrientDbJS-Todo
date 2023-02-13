@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./views/*.html"],
+  content: ["./views/**/*.html"],
   theme: {
     extend: {
       boxShadow: {
@@ -25,7 +25,7 @@ module.exports = {
         'h4': { fontSize: theme('fontSize.2xl') },
         'h5': { fontSize: theme('fontSize.xl') },
         'body': {
-          color: theme('textColor.black'),
+          color: theme('textColor.white'),
           fontSize: theme('fontSize.lg'),
         },
       })
