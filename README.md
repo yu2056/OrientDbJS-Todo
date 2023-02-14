@@ -8,7 +8,7 @@ This is simple todo app that uses OrientDb database
 3. Install database  
 Install OrientDb Docker image.
 4. Start database  
-Turn it on in Docker.
+Turn it on in Docker and create database named "mahasiswa" with class "TODO" with fields "isDone" type: boolean and "text" type: string.
 5. Start server  
 `npm run dev`
 
